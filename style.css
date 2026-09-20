@@ -1,0 +1,190 @@
+/* 全局样式 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Microsoft YaHei", Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* 头部样式 */
+header {
+    background-color: #4a90e2;
+    color: #fff;
+    padding: 20px 40px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 28px;
+    margin-bottom: 12px;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.nav-list a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-list a:hover {
+    text-decoration: underline;
+}
+
+/* 主体样式 */
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+section {
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #4a90e2;
+    border-bottom: 2px solid #4a90e2;
+    padding-bottom: 8px;
+    margin-bottom: 16px;
+}
+
+/* 列表样式 */
+ul, ol {
+    padding-left: 28px;
+    margin-bottom: 12px;
+}
+
+ul li, ol li {
+    margin-bottom: 6px;
+}
+
+/* 表格样式 */
+.benefits-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.benefits-table th,
+.benefits-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.benefits-table thead {
+    background-color: #4a90e2;
+    color: #fff;
+}
+
+.benefits-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* 表单样式 */
+fieldset {
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 16px 20px;
+    margin-bottom: 16px;
+}
+
+legend {
+    padding: 0 8px;
+    color: #4a90e2;
+    font-weight: bold;
+}
+
+.form-group {
+    margin-bottom: 14px;
+}
+
+.form-group label,
+.form-group span {
+    display: inline-block;
+    width: 110px;
+    text-align: right;
+    margin-right: 10px;
+    vertical-align: top;
+}
+
+.form-group input[type="text"],
+.form-group input[type="password"],
+.form-group input[type="date"],
+.form-group input[type="email"],
+.form-group input[type="tel"],
+.form-group select,
+.form-group textarea {
+    width: 300px;
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.form-buttons {
+    text-align: center;
+    margin-top: 16px;
+}
+
+.form-buttons button {
+    padding: 8px 24px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4a90e2;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.form-buttons button[type="reset"] {
+    background-color: #999;
+}
+
+.form-buttons button:hover {
+    opacity: 0.9;
+}
+
+/* 定义列表样式 */
+dl {
+    margin-bottom: 12px;
+}
+
+dt {
+    font-weight: bold;
+    margin-top: 12px;
+    color: #333;
+}
+
+dd {
+    margin-left: 20px;
+    color: #666;
+}
+
+/* 底部样式 */
+footer {
+    text-align: center;
+    padding: 16px;
+    background-color: #333;
+    color: #fff;
+    margin-top: 30px;
+}
