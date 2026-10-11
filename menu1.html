@@ -1,0 +1,49 @@
+<!DOCTYPE html><html lang="en"><head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>一级水平导航菜单</title>
+ <style>
+        /* 通配选择器：全局重置，盒模型 */
+        *{
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+        }
+        /* 后代选择器，选中表格 */
+        table{
+            border-collapse: collapse; /* 合并边框 */
+        }
+        /* 后代选择器选中td单元格 */
+        table tr td{
+            position: relative;  /* 父相对定位（考点position） */
+        }
+        /* 后代选择器：导航链接 */
+        table tr td a{
+            /* 盒模型padding，扩大点击区域 */
+            display:block;
+            padding:14px 18px;
+            text-decoration:none;
+            color:#fff;
+            background-color:#23529c;
+            font-size:16px;
+        }
+        /* :hover伪类 悬浮样式 */
+        table tr td a:hover{
+            background-color:#428bca;
+        }
+        /* 并集选择器示例：a标签hover和激活状态 */
+        table tr td a:hover, table tr td a:active{
+            color:#fff;
+        }
+ </style>
+</head><body>
+ <table align="center">
+ <tr>
+ <td><a href="#">首页</a></td>
+ <td><a href="#">教学院(部)</a></td>
+ <td><a href="#">党群机构</a></td>
+ <td><a href="#">行政教辅机构</a></td>
+ <td><a href="#">教学科研</a></td>
+ <td><a href="#">招生就业</a></td>
+ <td><a href="#">国际交流</a></td>
+ <td><a href="#">数字图书馆</a></td>
+ </tr>
+ </table>
+ </body></html>
